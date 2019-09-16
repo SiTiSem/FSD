@@ -1,0 +1,49 @@
+.btn-primary {
+  color: #FFFFFF;
+  font-family: $font-montserrat;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border: none;
+  border-radius: 22px;
+  outline: none;
+  &:hover, &:focus {
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    opacity: 0.5;
+  }
+}
+
+.btn-second {
+  color: $color-purple;
+  font-family: $font-montserrat;
+  position: relative;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  padding: 13px 18px;
+  border-radius: 22px;
+  outline: none;
+  background: #FFFFFF;
+  background:
+          linear-gradient(#fff,#fff) padding-box,
+          linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%) border-box;
+  border: 2px solid transparent;
+  display:inline-block;
+  &:hover, &:focus {
+    background:
+            linear-gradient(#fff,#fff) padding-box,
+            linear-gradient(180deg, rgba(188, 156, 255, 0.5) 0%, rgba(139, 164, 249, 0.5) 100%) border-box;
+  }
+}
+
+.btn-link {
+
+}
+
+.btn-wide {
+
+}

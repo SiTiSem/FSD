@@ -1,0 +1,39 @@
+.form>label {
+  font-family: $font-montserrat;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  display: flex;
+  margin-bottom: 5px;
+}
+input, select {
+  font-family: $font-montserrat;
+  font-size: 14px;
+  line-height: 18px;
+  box-sizing: border-box;
+  max-width: 100%;
+  width: 100%;
+  border: 1px solid $color-shade-25;
+  background: #FFFFFF;
+  border-radius: 4px;
+  padding: 13px 15px;
+  outline: none;
+  color: $color-shade-75;
+  &::placeholder {
+    color: $color-shade-25;
+  }
+  &:hover, &:focus {
+    border: 1px solid $color-shade-50;
+    color: $color-shade-75;
+    &::placeholder {
+      color: $color-shade-50;
+    }
+  }
+}
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") calc(100% - 18px) center no-repeat;
+}
