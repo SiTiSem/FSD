@@ -10,6 +10,7 @@
   border: none;
   border-radius: 22px;
   outline: none;
+  cursor: pointer;
   &:hover, &:focus {
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
     opacity: 0.5;
@@ -33,6 +34,7 @@
           linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%) border-box;
   border: 2px solid transparent;
   display:inline-block;
+  cursor: pointer;
   &:hover, &:focus {
     background:
             linear-gradient(#fff,#fff) padding-box,
@@ -41,9 +43,42 @@
 }
 
 .btn-link {
-
+  font-family: $font-montserrat;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: $color-purple;
+  text-transform: uppercase;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  &:hover, &:focus {
+    color: $color-shade-50;
+  }
 }
 
 .btn-wide {
-
+  color: #FFFFFF;
+  font-family: $font-montserrat;
+  font-weight: bold;
+  font-size: 12px;
+  width: 100%;
+  display: inline-block;
+  line-height: 15px;
+  text-transform: uppercase;
+  padding: 15px 40px 15px 20px;
+  border: none;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 22px;
+  cursor: pointer;
+  position: relative;
+  i {
+    right: 10px;
+    position: absolute;
+    top: 10px;
+  }
+  &:hover, &:focus {
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    opacity: 0.5;
+  }
 }
