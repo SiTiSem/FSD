@@ -1,0 +1,54 @@
+.pagination {
+  text-align: center;
+  ul {
+    list-style: none;
+    display: inline-flex;
+    font-family: $font-montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    text-align: center;
+    padding-left: 0;
+
+    li {
+      a, span {
+        color: $color-shade-50;
+        display: block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+      }
+    }
+
+    .active {
+      border: none;
+      background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+      border-radius: 22px;
+
+      a {
+        color: #FFFFFF;
+      }
+    }
+
+    .next {
+      border: none;
+      background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+      border-radius: 22px;
+
+      a {
+        color: #FFFFFF;
+
+        i {
+          line-height: 40px;
+        }
+      }
+
+      //background: transparent url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") calc(100% - 18px) center no-repeat;
+    }
+  }
+  p {
+    margin: 0;
+  }
+}

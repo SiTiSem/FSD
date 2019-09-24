@@ -1,4 +1,10 @@
+a {
+  text-decoration: none;
+}
+
 @import "variables";
 @import "elements/text";
 @import "elements/form";
 @import "elements/button";
+@import "elements/pagination";
+@import "elements/rate";
